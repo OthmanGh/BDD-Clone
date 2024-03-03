@@ -22,6 +22,10 @@
   align-items: center;
 }
 
+.j-top {
+  justify-content: flex-start;
+}
+
 .j-center {
   justify-content: center;
 }
