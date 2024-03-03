@@ -2,7 +2,7 @@
   background-color: rgba(0, 0, 0, 0.86);
   color: var(--clrs-white-);
   font-size: 2rem;
-  padding: 20px;
+  padding: 20px 13px;
   font-family: 'TheMix Caps', sans-serif;
 }
 
@@ -80,6 +80,7 @@
   .ham-menu {
     display: block;
     width: 50px;
+    height: 35px;
   }
 
   .logo {

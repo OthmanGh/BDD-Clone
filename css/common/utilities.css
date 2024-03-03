@@ -22,6 +22,10 @@
   align-items: center;
 }
 
+.j-center {
+  justify-content: center;
+}
+
 .s-gap {
   gap: 10px;
 }
