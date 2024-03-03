@@ -14,11 +14,21 @@ html {
 body {
   font-family: 'TheMix', sans-serif;
   position: relative;
+  font-size: 1.6rem;
 }
 
 :root {
   --clrs-white-: #fff;
   --clrs-blue-: #0078be;
+  --clrs-gray-: #808080;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'TheMixBlack-Caps', Sans-serif;
+  font-weight: bold;
 }
 
 ul,

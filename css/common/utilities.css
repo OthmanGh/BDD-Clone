@@ -49,3 +49,7 @@
 .semi-bold {
   font-weight: 500;
 }
+
+.grid {
+  display: grid;
+}
