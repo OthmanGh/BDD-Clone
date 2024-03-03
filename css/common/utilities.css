@@ -1,0 +1,47 @@
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.s-around {
+  justify-content: space-around;
+}
+
+.s-between {
+  justify-content: space-between;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.s-gap {
+  gap: 10px;
+}
+
+.m-gap {
+  gap: 20px;
+}
+
+.l-gap {
+  gap: 30px;
+}
+
+.hidden {
+  display: h;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.semi-bold {
+  font-weight: 500;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/themix-caps');
+@import url('https://fonts.cdnfonts.com/css/themix-2');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'TheMix', sans-serif;
+}
+
+:root {
+  --clrs-white-: #fff;
+  --clrs-blue-: #0078be;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+a:link,
+a:visited {
+  color: var(--clrs-white-);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  transform: scale(0.99);
+}
