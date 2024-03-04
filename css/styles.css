@@ -21,13 +21,14 @@ body {
   --clrs-white-: #fff;
   --clrs-blue-: #0078be;
   --clrs-gray-: #808080;
+  --clrs-black-: #000;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: 'TheMixBlack-Caps', Sans-serif;
+  font-family: 'TheMixBlack-Caps', Sans-serif !important;
   font-weight: bold;
 }
 
@@ -39,6 +40,7 @@ ol {
 a,
 button {
   transition: all 0.3s ease-in-out;
+  font: inherit;
 }
 
 a:link,

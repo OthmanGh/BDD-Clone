@@ -45,6 +45,7 @@ iframe {
 @media (max-width: 768px) {
   .bg-section {
     height: 50vh;
+    background-attachment: scroll;
   }
 
   .content-video iframe {
@@ -56,6 +57,7 @@ iframe {
 @media (max-width: 576px) {
   .bg-section {
     height: 45vh;
+    background-attachment: scroll;
   }
 
   .content-video iframe {
