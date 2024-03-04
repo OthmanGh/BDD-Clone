@@ -1,0 +1,72 @@
+.hub-section {
+  background-image: url(../assets/imgs/parallax-light.jpg);
+  background-attachment: fixed;
+}
+
+.content-3 {
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+.content-3 h2 {
+  font-size: 3rem;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-container-3 div {
+  max-width: 300px;
+  font-family: 'TheMixBlack-Caps', Sans-serif !important;
+  font-weight: bold;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.grid-container-3 div img {
+  max-width: 120px;
+  margin-bottom: 30px;
+}
+
+.grid-container-3 div img + p {
+  font-weight: bold;
+  font-size: 2.4rem;
+  align-self: flex-start;
+  letter-spacing: -1.5px;
+}
+
+@media (max-width: 800px) {
+  .grid-container-3 div img {
+    max-width: 80px;
+  }
+
+  .grid-container-3 div img + p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .grid-container-3 {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .content-3 h2 {
+    font-size: 2rem;
+  }
+
+  .grid-container-3 div img {
+    max-width: 80px;
+  }
+
+  .grid-container-3 div img + p {
+    font-size: 1.8rem;
+  }
+}
