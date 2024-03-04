@@ -18,7 +18,7 @@
 .content-video h3 {
   color: var(--clrs-white-);
   font-size: 3rem;
-  margin: 60px 0 30px 0;
+  margin: 30px 0;
   text-align: center;
   z-index: 10;
 }
@@ -42,10 +42,20 @@ iframe {
   height: 415px;
 }
 
+@media (max-width: 1600px) {
+  .content-video {
+    padding-bottom: 50px;
+  }
+}
+
 @media (max-width: 768px) {
   .bg-section {
     height: 50vh;
     background-attachment: scroll;
+  }
+
+  .content-video {
+    padding-bottom: 50px;
   }
 
   .content-video iframe {
